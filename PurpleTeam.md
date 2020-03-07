@@ -29,13 +29,13 @@ If your network/security devices blocks the Tor network, repeat all tests withou
 #### Transport Analysis:
 - Perform a Qualys SSL Labs scan
 
-#### Application Analysis:
+#### Web Application Analysis:
 - nmap -sV --host-timeout 1440m -Pn --script http-sql-injection %targets% --proxies SOCKS4://127.0.0.1:9050
 
-#### Advanced Application Analysis:
+#### Advanced Web Application Analysis:
 - nmap -sV --host-timeout 1440m -Pn --script "http-*" %targets% --proxies SOCKS4://127.0.0.1:9050
 
-#### Extreme Application Analysis (sqlmap - URLs from nmap results):
+#### Extreme Web Application Analysis (sqlmap - URLs from nmap results):
 - sqlmap -u "http://example.com" --crawl=10 --level=5 --risk=3 -a --dump-all --batch --random-agent --tor
 
 - sqlmap -u "http://example.com" --crawl=10 --level=5 --risk=3 -a --dump-all --batch --forms --random-agent --tor
