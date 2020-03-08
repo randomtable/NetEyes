@@ -21,4 +21,6 @@ The tool will launch an Amass scan, normalize the result and automatically launc
 
 - Insert a domain or IP, then click on your favorite script.
 
-You will se result files as "result.xml", "result.nmap" and "result.gnmap" in the application folder.
+You will se result files as "result.xml", "result.nmap" and "result.gnmap" in the application folder:
+
+![Result](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/3.png)
