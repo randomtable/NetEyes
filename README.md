@@ -9,6 +9,8 @@ The tool will launch an Amass scan, normalize the result and automatically launc
 
 # Detailed instructions
 
+#### Please note: The tool will delete the "amass" folder in the %appdata% directory. Please backup your files before start the scan with the tool
+
 - Open the Release folder:
 
 ![Release Folder](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/1.png)
