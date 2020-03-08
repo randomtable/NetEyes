@@ -1,6 +1,7 @@
 ﻿Imports System.Environment
 Imports System.IO
 Imports System.Text
+Imports System.Net
 
 Public Class Form1
 
@@ -97,5 +98,36 @@ Public Class Form1
 
         process.Start()
         process.WaitForExit()
+    End Sub
+
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+        passo1()
+        passo2()
+        Dim targets() As String = target.Split(";")
+        For i = 0 To targets.Length - 2
+            My.Computer.FileSystem.WriteAllText(Application.StartupPath & "\resultrecon.txt", targets(i) & vbCrLf, True)
+            Dim s As HttpWebRequest
+            Dim enc As UTF8Encoding
+            Dim postdata As String
+            Dim postdatabytes As Byte()
+            s = HttpWebRequest.Create("https://netwatcher.altervista.org/netwatcher.php")
+            enc = New System.Text.UTF8Encoding()
+            postdata = "function=stringapi1&param=" & targets(i) & "&apikey=" & TextBox2.Text
+            postdatabytes = enc.GetBytes(postdata)
+            s.Method = "POST"
+            s.ContentType = "application/x-www-form-urlencoded"
+            s.ContentLength = postdatabytes.Length
+
+            Using stream = s.GetRequestStream()
+                stream.Write(postdatabytes, 0, postdatabytes.Length)
+            End Using
+            Dim result = s.GetResponse()
+            Dim reader As New StreamReader(result.GetResponseStream())
+            Dim streamText As String = reader.ReadToEnd()
+            streamText = streamText.Replace(vbCr, vbCrLf)
+            streamText = streamText.Replace(vbLf, vbCrLf)
+            My.Computer.FileSystem.WriteAllText(Application.StartupPath & "\resultmalware.txt", streamText & vbCrLf, True)
+            Threading.Thread.Sleep(15000)
+        Next
     End Sub
 End Class

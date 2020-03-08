@@ -7,3 +7,12 @@ C:\Users\Alessandro Fiori\documents\visual studio 2010\Projects\NetEyes\NetEyes\
 C:\Users\Alessandro Fiori\documents\visual studio 2010\Projects\NetEyes\NetEyes\obj\x86\Release\NetEyes.exe
 C:\Users\Alessandro Fiori\documents\visual studio 2010\Projects\NetEyes\NetEyes\obj\x86\Release\NetEyes.xml
 C:\Users\Alessandro Fiori\documents\visual studio 2010\Projects\NetEyes\NetEyes\obj\x86\Release\NetEyes.pdb
+C:\Users\Alessandro Fiori\Downloads\NetEyes-master\NetEyes-master\NetEyes\NetEyes\obj\x86\Release\NetEyes.exe
+C:\Users\Alessandro Fiori\Downloads\NetEyes-master\NetEyes-master\NetEyes\NetEyes\obj\x86\Release\NetEyes.xml
+C:\Users\Alessandro Fiori\Downloads\NetEyes-master\NetEyes-master\NetEyes\NetEyes\obj\x86\Release\NetEyes.pdb
+C:\Users\Alessandro Fiori\Downloads\NetEyes-master\NetEyes-master\NetEyes\NetEyes\bin\Release\NetEyes.exe
+C:\Users\Alessandro Fiori\Downloads\NetEyes-master\NetEyes-master\NetEyes\NetEyes\bin\Release\NetEyes.pdb
+C:\Users\Alessandro Fiori\Downloads\NetEyes-master\NetEyes-master\NetEyes\NetEyes\bin\Release\NetEyes.xml
+C:\Users\Alessandro Fiori\Downloads\NetEyes-master\NetEyes-master\NetEyes\NetEyes\obj\x86\Release\NetEyes.Form1.resources
+C:\Users\Alessandro Fiori\Downloads\NetEyes-master\NetEyes-master\NetEyes\NetEyes\obj\x86\Release\NetEyes.Resources.resources
+C:\Users\Alessandro Fiori\Downloads\NetEyes-master\NetEyes-master\NetEyes\NetEyes\obj\x86\Release\NetEyes.vbproj.GenerateResource.Cache
