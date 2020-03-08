@@ -10,7 +10,9 @@ The tool will launch an Amass scan, normalize the result and automatically launc
 # Detailed instructions
 
 - Open the Release folder:
+
 ![Release Folder](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/1.png)
 
 - Run the application:
+
 ![Application](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/2.png)
