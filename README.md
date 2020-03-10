@@ -24,3 +24,15 @@ The tool will launch an Amass scan, normalize the result and automatically launc
 You will se result files as "result.xml", "result.nmap" and "result.gnmap" in the application folder:
 
 ![Result](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/3.png)
+
+# Uncover threats on your domain or IPs
+
+NetEyes can help you to uncover threats on your network, or simply track visible events from outside.
+
+For achive this, NetEyes scans your IP or Domain with Amass and call an external PHP Platform called "NetWatcher".
+
+NetWatcher will call VirusTotal and calculate results to provide you if there is a IOC (an active and recent visible threat) or not.
+
+To do this, provide a domain/IP and a VirusTotal API.
+
+![VirusTotal](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/6.png)
