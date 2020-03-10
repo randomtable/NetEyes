@@ -36,3 +36,8 @@ NetWatcher will call VirusTotal and calculate results to provide you if there is
 To do this, provide a domain/IP and a VirusTotal API.
 
 ![VirusTotal](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/5.png)
+
+NetEyes will create two files, resultrecon.txt (IPs extracted from Amass scan phase) and resultmalware.txt (IOCs extracted by VirusTotal inquiry).
+
+An example of resultmalware.txt:
+
