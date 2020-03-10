@@ -42,3 +42,5 @@ NetEyes will create two files, resultrecon.txt (IPs extracted from Amass scan ph
 An example of resultmalware.txt:
 
 ![Malware](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/6.png)
+
+As you can see, the last coloumn show you if the hash is an active, recent threat and represent an IOC.
