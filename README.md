@@ -17,7 +17,7 @@ The tool will launch an Amass scan, normalize the result and automatically launc
 
 - Run the application:
 
-![Application](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/2.png)
+![Application](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/4.png)
 
 - Insert a domain or IP, then click on your favorite script.
 
