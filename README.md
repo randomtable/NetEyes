@@ -25,7 +25,7 @@ You will se result files as "result.xml", "result.nmap" and "result.gnmap" in th
 
 ![Result](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/3.png)
 
-# Uncover threats on your domain or IPs
+# Uncover threats on your domain or IP
 
 NetEyes can help you to uncover threats on your network, or simply track visible events from outside.
 
