@@ -35,4 +35,4 @@ NetWatcher will call VirusTotal and calculate results to provide you if there is
 
 To do this, provide a domain/IP and a VirusTotal API.
 
-![VirusTotal](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/6.png)
+![VirusTotal](https://raw.githubusercontent.com/randomtable/NetEyes/master/Images/5.png)
